@@ -5,7 +5,7 @@ const Hydrogels = () => {
     <div className="hydrogels-center">
       <div className="hydrogels-img">Image</div>
       <div className="hydrogels-content">
-        <h1 className="hydrogels-header">Header</h1>
+        <h1 className="hydrogels-header">Hydrogels</h1>
         <p className="hydrogels-body">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
           illum expedita quisquam laborum maiores error.
