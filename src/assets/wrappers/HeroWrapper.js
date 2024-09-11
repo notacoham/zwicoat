@@ -1,7 +1,36 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
-  background: var(--white);
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1.5rem;
+  }
+
+  .hero-header {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+    font-family: 'SUSE', sans-serif;
+  }
+
+  .hero-subheader {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+  }
+
+  /* active */
+  @media (min-width: 768px) {
+    .hero-center {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  }
 `;
 
 export default Wrapper;

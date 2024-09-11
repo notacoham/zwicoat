@@ -10,6 +10,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     padding: 1.5rem 2rem;
+    /* box-shadow: var(--shadow-elevation-high); */
   }
   .logo {
     font-size: clamp(1.5rem, 3vw, 3rem);
@@ -30,8 +31,16 @@ const Wrapper = styled.nav`
   .nav-link {
     color: var(--grey-darkest);
     padding: 0.5rem 0.5rem 0.5rem 0;
-    transition: var(--transition);
+    /* transition: var(--transition); */
     letter-spacing: 2px;
+    background-image: linear-gradient(
+      transparent 90%,
+      var(--primary-1) 90%,
+      var(--primary-1) 100%
+    );
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-size: 0% 16px;
   }
 
   .nav-link:hover {
@@ -50,6 +59,16 @@ const Wrapper = styled.nav`
     .nav-links {
       flex-direction: row;
       margin-top: 0;
+    }
+
+    .nav-link:hover {
+      background-position: 100% 100%;
+      background-size: 100% 16px;
+      cursor: pointer;
+      color: var(--black);
+
+      transition: background-size 0.5s cubic-bezier(0.79, 0.01, 0.22, 0.99) 0s,
+        background-position 0s step-end 0.5s;
     }
   }
 `;
