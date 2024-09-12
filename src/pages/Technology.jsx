@@ -1,8 +1,10 @@
-import React from 'react';
-import PublicationCard from '../components/PublicationCard';
+import React, { useState } from 'react';
 import Wrapper from '../assets/wrappers/TechnologyPage';
-
+import { publications } from '../data.js';
+import Publications from '../components/Publications.jsx';
 const Technology = () => {
+  const [items, setItems] = useState(publications);
+
   return (
     <Wrapper>
       <div className="tech-hero-center">
@@ -33,7 +35,7 @@ const Technology = () => {
         <h1 className="publications-header">
           Read about them in our recent publications:
         </h1>
-        <PublicationCard />
+        <Publications items={items} />
       </div>
     </Wrapper>
   );

@@ -1,4 +1,11 @@
-const team = [
+import img1 from './assets/images/publications/publication-1.jpeg';
+import img2 from './assets/images/publications/publication-2.jpeg';
+import img3 from './assets/images/publications/publication-3.jpeg';
+import img4 from './assets/images/publications/publication-4.jpeg';
+import img5 from './assets/images/publications/publication-5.jpeg';
+import img6 from './assets/images/publications/publication-6.jpeg';
+
+export const team = [
   {
     id: 1,
     name: 'Leland G. Hansen, JD',
@@ -21,12 +28,10 @@ const team = [
   },
 ];
 
-export default TeamMembers;
-
-const publications = [
+export const publications = [
   {
     id: 1,
-    img: '',
+    img: img1,
     title:
       'Photografted Zwitterionic Hydrogel Coating Durability for Reduced Foreign Body Response to Cochlear Implants',
     authors:
@@ -38,8 +43,7 @@ const publications = [
   },
   {
     id: 2,
-    img: '',
-
+    img: img2,
     title:
       'Reducing the Foreign Body Response on Human Cochlear Implants and Their Materials In Vivo with Photografted Zwitterionic Hydrogel Coatings',
     authors:
@@ -51,7 +55,7 @@ const publications = [
   },
   {
     id: 3,
-    img: '',
+    img: img3,
     title:
       '​​Zwitterionic Photografted Coatings of Cochlear Implant Biomaterials Reduce Friction and Insertion Forces',
     authors:
@@ -63,7 +67,7 @@ const publications = [
   },
   {
     id: 4,
-    img: '',
+    img: img4,
     title:
       'Antifouling Photograftable Zwitterionic Coatings on PDMS Substrates',
     authors:
@@ -75,7 +79,7 @@ const publications = [
   },
   {
     id: 5,
-    img: '',
+    img: img5,
     title:
       'Antifouling and Mechanical Properties of Photografted Zwitterionic Hydrogel Thin-Film Coatings Depend on the Cross-Link Density​',
     authors:
@@ -87,7 +91,7 @@ const publications = [
   },
   {
     id: 6,
-    img: '',
+    img: img6,
     title:
       'Photograftable Zwitterionic Coatings Prevent Staphylococcus aureus and Staphylococcus epidermidis Adhesion to PDMS Surfaces​',
     authors:
