@@ -28,10 +28,6 @@ html {
   --grey-darker: #94a3b8;
   --grey-darkest: #0f172a;
 
-  /* fonts */
-  --small-text: 0.875rem;
-  --extra-small-text: 0.7rem;
-
   /* vars */
   --backgroundColor: var(--white);
   --textColor: var(--grey-darkest);
@@ -255,4 +251,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
+}
+
+.tech-hero-center {
+  background-image: url(./assets/images/logos/vector-lines-2.png);
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+  height: 450px;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 30px; */
 }

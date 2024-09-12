@@ -6,6 +6,7 @@ const Wrapper = styled.nav`
   nav {
     position: sticky;
     top: 0;
+    box-shadow: var(--shadow-elevation-medium);
   }
 
   .nav-center {
@@ -15,7 +16,6 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     padding: 1.5rem 2rem;
-    /* box-shadow: var(--shadow-elevation-high); */
   }
   .logo {
     font-size: clamp(1.5rem, 3vw, 3rem);
@@ -46,6 +46,9 @@ const Wrapper = styled.nav`
     background-repeat: no-repeat;
     background-position-y: 100%;
     background-size: 0% 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-link:hover {
