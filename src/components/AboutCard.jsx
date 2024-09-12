@@ -22,8 +22,8 @@ const AboutCard = () => {
           complications as inevitable.​
         </p>
         <div className="btn-container">
-          <button className="btn">Info</button>
-          <button className="btn">Team</button>
+          <button className="btn">Technology</button>
+          <button className="btn">Meet the Team</button>
         </div>
       </div>
     </Wrapper>

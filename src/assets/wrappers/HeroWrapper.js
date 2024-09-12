@@ -5,19 +5,19 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 50vw;
     gap: 1.5rem;
   }
 
   .hero-header {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
     color: var(--black);
     font-family: 'SUSE', sans-serif;
   }
 
   .hero-subheader {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--black);
   }
@@ -29,6 +29,19 @@ const Wrapper = styled.nav`
       justify-content: space-between;
       align-items: center;
       gap: 1.5rem;
+    }
+
+    .hero-header {
+      font-size: 48px;
+      font-weight: 500;
+      color: var(--black);
+      font-family: 'SUSE', sans-serif;
+    }
+
+    .hero-subheader {
+      font-size: 24px;
+      font-weight: 400;
+      color: var(--black);
     }
   }
 `;

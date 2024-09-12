@@ -1,4 +1,3 @@
-import React from 'react';
 import Wrapper from '../assets/wrappers/HydrogelsWrapper';
 import img from '../assets/images/logos/vector-lines.png';
 
