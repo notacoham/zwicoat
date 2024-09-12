@@ -41,7 +41,7 @@ const Wrapper = styled.nav`
     .hero-subheader {
       font-size: 24px;
       font-weight: 400;
-      color: var(--black);
+      color: var(--primary-1);
     }
   }
 `;
