@@ -5,7 +5,7 @@ const Wrapper = styled.nav`
 
   .inflammation-center {
     margin: 0 auto;
-    height: 300px;
+    height: 400px;
     padding: 2rem;
     display: flex;
     flex-direction: column;

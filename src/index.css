@@ -126,7 +126,7 @@ a {
   cursor: pointer;
   color: var(--white);
   background-color: var(--primary-2);
-  border-radius: var(--rounded-full);
+  border-radius: 30px;
   border: transparent;
   letter-spacing: var(--letterSpacing);
   padding: 0.7rem 0.75rem;
@@ -208,7 +208,7 @@ a {
   background-size: cover;
   width: 100%;
   max-width: 100%;
-  height: 400px;
+  height: 600px;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: row;

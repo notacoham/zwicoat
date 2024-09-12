@@ -14,8 +14,8 @@ const Wrapper = styled.nav`
   }
   .logo {
     font-size: clamp(1.5rem, 3vw, 3rem);
-    color: var(--primary-1);
-    font-weight: 700;
+    color: var(--black);
+    font-weight: 500;
     letter-spacing: 2px;
     font-family: 'SUSE', sans-serif;
   }
