@@ -8,13 +8,18 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 400px;
-  }
-
-  .contact-header {
+    height: 250px;
   }
 
   .contact-btn {
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
   }
 `;
 
