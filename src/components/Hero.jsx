@@ -1,5 +1,6 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/HeroWrapper';
+import heroImg from '../assets/images/logos/hero-img-3.jpeg';
 
 const Hero = () => {
   return (
@@ -10,12 +11,8 @@ const Hero = () => {
           <h1 className="hero-subheader">
             novel surface modifications of medical implants
           </h1>
-          {/* <p className="hero-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            laboriosam nemo odit aperiam perspiciatis quasi.
-          </p> */}
         </div>
-        {/* <div className="hero-img"></div> */}
+        <img className="hero-img" src={heroImg} alt="" />
       </div>
     </Wrapper>
   );

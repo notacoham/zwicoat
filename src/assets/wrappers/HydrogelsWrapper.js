@@ -14,10 +14,11 @@ const Wrapper = styled.nav`
   }
 
   .hydrogels-img {
-    /* width: 500px;
-    height: 400px;
-    border-radius: 30px; */
     display: none;
+  }
+
+  img {
+    box-shadow: var(--shadow-elevation-high);
   }
 
   .hydrogels-content {

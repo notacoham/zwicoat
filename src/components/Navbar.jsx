@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/NavbarWrapper';
-import img from '../assets/images/logos/untitled-2.png';
 
 const Navbar = () => {
   return (

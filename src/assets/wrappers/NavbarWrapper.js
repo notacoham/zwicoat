@@ -3,6 +3,11 @@ import styled from 'styled-components';
 const Wrapper = styled.nav`
   background: var(--white);
 
+  nav {
+    position: sticky;
+    top: 0;
+  }
+
   .nav-center {
     width: var(--view-width);
     max-width: var(--max-width);
