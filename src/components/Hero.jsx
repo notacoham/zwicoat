@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="hero-header">Zwicoat Materials Innovations</h1>
           <h1 className="hero-subheader">
-            Setting new Standards in Implant Safety
+            novel surface modifications of medical implants
           </h1>
           {/* <p className="hero-body">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam

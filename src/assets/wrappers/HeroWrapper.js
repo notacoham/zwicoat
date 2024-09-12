@@ -11,14 +11,14 @@ const Wrapper = styled.nav`
 
   .hero-header {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--black);
     font-family: 'SUSE', sans-serif;
   }
 
   .hero-subheader {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--black);
   }
 
