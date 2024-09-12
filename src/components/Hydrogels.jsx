@@ -1,5 +1,6 @@
 import Wrapper from '../assets/wrappers/HydrogelsWrapper';
 import img from '../assets/images/logos/vector-lines.png';
+import { NavLink } from 'react-router-dom';
 
 const Hydrogels = () => {
   return (
@@ -17,7 +18,9 @@ const Hydrogels = () => {
             barrier between the body and the implant. Instead of seeing a
             silicone surface, cells and proteins instead just see water.
           </p>
-          <button className="btn">Learn More</button>
+          <NavLink to="/technology" className="btn">
+            Learn More
+          </NavLink>
         </div>
       </div>
     </Wrapper>

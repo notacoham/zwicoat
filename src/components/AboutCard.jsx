@@ -1,5 +1,6 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/AboutCardWrapper';
+import { NavLink } from 'react-router-dom';
 
 const AboutCard = () => {
   return (
@@ -22,8 +23,12 @@ const AboutCard = () => {
           complications as inevitable.​
         </p>
         <div className="btn-container">
-          <button className="btn">Technology</button>
-          <button className="btn">Meet the Team</button>
+          <NavLink to="/technology" className="btn">
+            Technology
+          </NavLink>
+          <NavLink to="/about" className="btn">
+            Meet the Team
+          </NavLink>
         </div>
       </div>
     </Wrapper>

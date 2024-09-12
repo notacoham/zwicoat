@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-center">
           <div className="footer-logo">
             <h1 className="footer-header">ZCMI</h1>
-            <button className="btn contact-btn">Contact Us</button>
+            {/* <button className="btn contact-btn">Contact Us</button> */}
           </div>
           <div className="footer-links">
             <NavLink to="/technology" className="footer-link">
