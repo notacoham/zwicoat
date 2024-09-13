@@ -194,7 +194,7 @@ a {
 }
 
 /* form */
-
+/* 
 .form {
   width: 100%;
   max-width: var(--fixed-width);
@@ -235,7 +235,7 @@ a {
   color: var(--red-dark);
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
-}
+} */
 
 .hero-center {
   /* background-image: url(./assets/images/logos/hero-img-3.jpeg); */
