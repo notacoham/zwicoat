@@ -14,11 +14,11 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 100vh;
   }
 
   p {
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
     width: 80vw;
   }
@@ -26,9 +26,10 @@ const Wrapper = styled.nav`
   .tech-publications {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 2rem;
+    height: 100vh;
   }
 
   .publications-header {
@@ -41,6 +42,50 @@ const Wrapper = styled.nav`
     font-size: 36px;
     text-align: center;
     width: 50vw;
+  }
+
+  @media (min-width: 768px) {
+    .tech-hero-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .tech-content-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+    }
+
+    p {
+      line-height: 2rem;
+      text-align: center;
+      width: 80vw;
+    }
+
+    .tech-publications {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .publications-header {
+      font-size: 36px;
+      text-align: center;
+      width: 50vw;
+    }
+
+    .tech-content-header {
+      font-size: 36px;
+      text-align: center;
+      width: 50vw;
+    }
   }
 `;
 

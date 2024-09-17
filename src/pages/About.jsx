@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Wrapper from '../assets/wrappers/AboutPageWrapper';
 import TeamMembers from '../components/TeamMembers';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

@@ -10,8 +10,12 @@ const Wrapper = styled.nav`
     align-items: center;
     height: 100vh;
     margin: 0 auto;
-    padding: 2rem;
-    gap: 1rem;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .btn {
+    font-size: 14px;
   }
 
   .about-header {
@@ -23,9 +27,9 @@ const Wrapper = styled.nav`
 
   .about-body {
     color: var(--grey-light);
-    line-height: 1.5rem;
+    line-height: 1rem;
     text-align: center;
-    width: 75%;
+    width: 100%;
   }
 
   .btn-container {

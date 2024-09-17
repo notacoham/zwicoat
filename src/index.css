@@ -120,27 +120,6 @@ a {
   text-decoration: none;
 }
 
-/* .btn {
-  cursor: pointer;
-  color: var(--white);
-  background-color: var(--primary-2);
-  border-radius: 30px;
-  border: transparent;
-  letter-spacing: var(--letterSpacing);
-  padding: 0.7rem 0.75rem;
-  transition: var(--transition);
-  text-transform: capitalize;
-  box-shadow: var(--shadow-elevation-medium);
-  display: inline-block;
-  font-family: 'SUSE', sans-serif;
-  font-weight: 700;
-}
-
-.btn:hover {
-  background: var(--primary-3);
-  box-shadow: var(--shadow-3);
-} */
-
 .btn {
   font-family: 'SUSE', sans-serif;
   font-size: 20px;
@@ -154,6 +133,8 @@ a {
   z-index: 1;
   overflow: hidden;
   cursor: pointer;
+  text-align: center;
+  align-items: center;
 }
 
 .btn:hover {
@@ -425,6 +406,10 @@ svg {
   align-items: center;
 }
 
+.about-page-header {
+  text-align: center;
+}
+
 .about-page-bio {
   font-size: 24px;
   width: 75%;
@@ -484,4 +469,12 @@ svg {
 
 .slide-btn:hover {
   color: grey;
+}
+
+.member-name {
+  text-align: center;
+}
+
+.member-title {
+  text-align: center;
 }

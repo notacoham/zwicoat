@@ -11,7 +11,7 @@ const Wrapper = styled.nav`
   }
 
   img {
-    box-shadow: var(--shadow-elevation-high);
+    display: none;
   }
 
   .hero-header {
@@ -32,6 +32,13 @@ const Wrapper = styled.nav`
     font-weight: 400;
     color: var(--black);
     text-align: center;
+  }
+
+  .hero-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   /* active */
@@ -65,6 +72,7 @@ const Wrapper = styled.nav`
       width: 600px;
       height: 400px;
       border-radius: 30px;
+      box-shadow: var(--shadow-elevation-high);
       display: flex;
     }
   }
