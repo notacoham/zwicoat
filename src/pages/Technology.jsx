@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Wrapper from '../assets/wrappers/TechnologyPage';
-import { publications } from '../data.js';
 import MagazineList from '../components/MagazineList.jsx';
+import { publications } from '../data.js';
 const Technology = () => {
   const [items, setItems] = useState(publications);
 

@@ -5,6 +5,13 @@ import img4 from './assets/images/publications/publication-4.jpeg';
 import img5 from './assets/images/publications/publication-5.jpeg';
 import img6 from './assets/images/publications/publication-6.jpeg';
 
+import coverImg1 from './assets/images/publications/publications-img-cover-1.png';
+import coverImg2 from './assets/images/publications/publications-img-cover-2.png';
+import coverImg3 from './assets/images/publications/publications-img-cover-3.png';
+import coverImg4 from './assets/images/publications/publications-img-cover-4.png';
+import coverImg5 from './assets/images/publications/publications-img-cover-5.png';
+import coverImg6 from './assets/images/publications/publications-img-cover-6.png';
+
 export const team = [
   {
     id: 1,
@@ -32,6 +39,7 @@ export const publications = [
   {
     id: 1,
     img: img1,
+    coverImg: coverImg1,
     title:
       'Photografted Zwitterionic Hydrogel Coating Durability for Reduced Foreign Body Response to Cochlear Implants',
     authors:
@@ -44,6 +52,7 @@ export const publications = [
   {
     id: 2,
     img: img2,
+    coverImg: coverImg2,
     title:
       'Reducing the Foreign Body Response on Human Cochlear Implants and Their Materials In Vivo with Photografted Zwitterionic Hydrogel Coatings',
     authors:
@@ -56,6 +65,7 @@ export const publications = [
   {
     id: 3,
     img: img3,
+    coverImg: coverImg3,
     title:
       '​​Zwitterionic Photografted Coatings of Cochlear Implant Biomaterials Reduce Friction and Insertion Forces',
     authors:
@@ -68,6 +78,7 @@ export const publications = [
   {
     id: 4,
     img: img4,
+    coverImg: coverImg4,
     title:
       'Antifouling Photograftable Zwitterionic Coatings on PDMS Substrates',
     authors:
@@ -80,6 +91,7 @@ export const publications = [
   {
     id: 5,
     img: img5,
+    coverImg: coverImg5,
     title:
       'Antifouling and Mechanical Properties of Photografted Zwitterionic Hydrogel Thin-Film Coatings Depend on the Cross-Link Density​',
     authors:
@@ -92,6 +104,7 @@ export const publications = [
   {
     id: 6,
     img: img6,
+    coverImg: coverImg6,
     title:
       'Photograftable Zwitterionic Coatings Prevent Staphylococcus aureus and Staphylococcus epidermidis Adhesion to PDMS Surfaces​',
     authors:
