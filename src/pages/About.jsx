@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Wrapper from '../assets/wrappers/AboutPageWrapper';
-import 'react-multi-carousel/lib/styles.css';
-import Carousel from '../components/Carousel';
+import TeamMembers from '../components/TeamMembers';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { team } from '../data.js';
 
 const About = () => {
+  const [members, setMembers] = useState(team);
+
   return (
-    <Wrapper>
+    <>
       <div className="about-page-hero">
-        <h1 className="about-page-title">About</h1>
-        <h2 className="about-page-header">Meet the team behind Zwicoat.</h2>
+        <h1 className="about-page-title">About:</h1>
+        <h2 className="about-page-header">Meet the team behind Zwicoat</h2>
       </div>
       <div className="about-page-team">
         <p className="about-page-bio">
@@ -19,9 +23,9 @@ const About = () => {
           odio maiores, est eaque non officia quibusdam ipsa porro libero. Ipsa,
           cum error!
         </p>
-        <Carousel />
       </div>
-    </Wrapper>
+      <TeamMembers members={members} />
+    </>
   );
 };
 

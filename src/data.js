@@ -12,24 +12,33 @@ import coverImg4 from './assets/images/publications/publications-img-cover-4.png
 import coverImg5 from './assets/images/publications/publications-img-cover-5.png';
 import coverImg6 from './assets/images/publications/publications-img-cover-6.png';
 
+import teamImg1 from './assets/images/personel-photos/LelandHansen-edited.png';
+import teamImg2 from './assets/images/personel-photos/allanguymon.png';
+import teamImg3 from './assets/images/personel-photos/hansenmr-edited.jpg';
+import teamImg4 from './assets/images/personel-photos/kameronHansen-edited.jpg';
+
 export const team = [
   {
     id: 1,
+    img: teamImg1,
     name: 'Leland G. Hansen, JD',
     title: 'Executive Chairman',
   },
   {
     id: 2,
+    img: teamImg2,
     name: 'C. Allan Guymon, PhD',
     title: 'Chief Scientific Officer',
   },
   {
     id: 3,
+    img: teamImg3,
     name: 'Marlan R. Hansen, MD',
     title: 'Chief Medical Officer',
   },
   {
     id: 4,
+    img: teamImg4,
     name: 'Kameron R. Hansen, PhD',
     title: 'President and Chief Technology Officer',
   },
