@@ -1,22 +1,23 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/PublicationCardWrapper';
+import { NavLink } from 'react-router-dom';
 
 const PublicationCard = ({ img, title, authors, summary, journal, link }) => {
   return (
-    <Wrapper>
-      <article className="article-item">
-        <img src={img} alt={title} />
-        <div className="article-info">
-          <div className="article-content">
-            <h1>{title}</h1>
-            <p>Authors: {authors}</p>
-            <p>Journal: {journal}</p>
-            <p>Summary: {summary}</p>
-            <p>Link: {link}</p>
-          </div>
+    <div className="article-item">
+      <img className="article-img" src={img} alt={title} />
+      <div className="article-info">
+        <div className="article-content">
+          <h1 className="article-title">{title}</h1>
+          <p className="article-detail">Authors: {authors}</p>
+          <p className="article-detail">Journal: {journal}</p>
+          <p className="article-detail">Summary: {summary}</p>
+          <NavLink className="btn" to={link}>
+            Read the Full Paper
+          </NavLink>
         </div>
-      </article>
-    </Wrapper>
+      </div>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Wrapper from '../assets/wrappers/TechnologyPage';
 import { publications } from '../data.js';
-import Publications from '../components/Publications.jsx';
+import MagazineList from '../components/MagazineList.jsx';
 const Technology = () => {
   const [items, setItems] = useState(publications);
 
@@ -35,7 +35,10 @@ const Technology = () => {
         <h1 className="publications-header">
           Read about them in our recent publications:
         </h1>
-        <Publications items={items} />
+      </div>
+      <div className="publications-container">
+        {/* <Publications items={items} /> */}
+        <MagazineList items={items} />
       </div>
     </Wrapper>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import PublicationCard from './PublicationCard';
+import Wrapper from '../assets/wrappers/PublicationsWrapper';
 
 const Publications = ({ items }) => {
   return (

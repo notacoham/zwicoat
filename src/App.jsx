@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { About, Contact, HomeLayout, Landing, Technology } from './pages';
+import { About, Contact, HomeLayout, Landing, Technology, Test } from './pages';
 
 const router = createBrowserRouter([
   {

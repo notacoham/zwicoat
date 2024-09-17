@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Francois+One&family=Kdam+Thmor+Pro&Martian+Mono:wght@300;700&family=Merriweather&family=Playfair+Display&family=Roboto:wght@400;700&family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /* Global CSS */
 
 * {
@@ -266,4 +268,111 @@ a {
   margin-left: auto;
   margin-right: auto;
   /* border-radius: 30px; */
+}
+
+/* Publications */
+
+.publications-center {
+  /* display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center; */
+  display: grid;
+  gap: 1rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  grid-template-columns: 3;
+}
+
+.article-img {
+  border-radius: 30px;
+  box-shadow: var(--shadow-elevation-high);
+}
+
+.article-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.article-title {
+  font-size: 36px;
+  width: 75%;
+  text-align: center;
+}
+
+.article-detail {
+  font-size: 18px;
+  width: 75%;
+}
+
+/* Magazine */
+
+.publications-container {
+  margin-top: 3rem;
+}
+
+.magazine-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.magazine-title {
+  font-size: 24px;
+  font-family: 'Outfit', sans-serif;
+  line-height: 2rem;
+  align-content: center;
+  text-align: center;
+  width: 75%;
+}
+
+.magazine-header {
+  border-color: var(--primary-1);
+  border-top: solid;
+  width: 50%;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.cover-page,
+.inside-cover-page,
+.content-page,
+.back-cover-page {
+  box-shadow: var(--shadow-elevation-high);
+}
+
+.cover-page {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to bottom right, #5b7fff, #33ccfc);
+}
+
+.inside-cover-page,
+.content-page {
+  background: white;
+}
+
+.back-cover-page {
+  background: linear-gradient(to bottom right, #5b7fff, #33ccfc);
 }
