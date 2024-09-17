@@ -8,7 +8,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 100vh;
     margin: 0 auto;
     padding: 2rem;
     gap: 1rem;
@@ -18,14 +18,14 @@ const Wrapper = styled.nav`
     color: var(--white);
     font-size: 36px;
     text-align: center;
-    width: 50vw;
+    width: 50%;
   }
 
   .about-body {
     color: var(--grey-light);
     line-height: 1.5rem;
     text-align: center;
-    width: 75vw;
+    width: 75%;
   }
 
   .btn-container {
@@ -42,7 +42,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 600px;
+      height: 100vh;
       margin: 0 auto;
       padding: 2rem;
       gap: 2rem;
@@ -52,14 +52,14 @@ const Wrapper = styled.nav`
       color: var(--white);
       font-size: 48px;
       text-align: center;
-      width: 50vw;
+      width: 50%;
     }
 
     .about-body {
       color: var(--grey-light);
       line-height: 2.5rem;
       text-align: center;
-      width: 75vw;
+      width: 75%;
     }
 
     .btn-container {

@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
     justify-content: center;
     min-height: 100vh;
     gap: 1rem;
-    /* background: var(--primary-3); */
+    font-family: 'SUSE', sans-serif;
   }
 
   form {
@@ -58,14 +58,8 @@ const Wrapper = styled.nav`
   form button {
     width: 100%;
     height: 55px;
-    /* background: var(--primary-2); */
     border: none;
-    /* border-radius: 30px; */
-    /* box-shadow: var(--shadow-elevation-high); */
-    /* cursor: pointer; */
     font-size: 16px;
-    /* color: #fff; */
-    /* font-weight: 500; */
     margin-top: 25px;
     transition: 0.5s;
   }

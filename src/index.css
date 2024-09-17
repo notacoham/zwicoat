@@ -260,63 +260,40 @@ a {
   background-size: cover;
   width: 100vw;
   max-width: 100%;
-  height: 450px;
+  height: 70vh;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: row;
   padding: 1.5rem 2rem;
   margin-left: auto;
   margin-right: auto;
-  /* border-radius: 30px; */
+}
+
+.about-page-hero {
+  background-image: url(./assets/images/logos/about-page-img.png);
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+  height: 70vh;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
 }
 
 /* Publications */
 
 .publications-center {
-  /* display: flex;
-  flex-direction: column;
-  width: 100vw;
-  justify-content: space-evenly;
-  align-items: center; */
   display: grid;
   gap: 1rem 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   grid-template-columns: 3;
-}
-
-.article-img {
-  border-radius: 30px;
-  box-shadow: var(--shadow-elevation-high);
-}
-
-.article-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.article-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem;
-}
-
-.article-title {
-  font-size: 36px;
-  width: 75%;
-  text-align: center;
-}
-
-.article-detail {
-  font-size: 18px;
-  width: 75%;
 }
 
 /* Magazine */
@@ -330,7 +307,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .magazine-title {
@@ -346,7 +323,7 @@ a {
   border-color: var(--primary-1);
   border-top: solid;
   width: 50%;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 0.5rem;
   font-size: 48px;
   font-weight: 500;
@@ -358,6 +335,7 @@ a {
 .content-page,
 .back-cover-page {
   box-shadow: var(--shadow-elevation-high);
+  border-radius: 10px;
 }
 
 .cover-page {
@@ -414,8 +392,25 @@ a {
   justify-content: last baseline;
 }
 
-.magazine-summary {
+.content-body {
+  padding: 20px 60px 20px 60px;
+  line-height: 2rem !important;
   text-align: left !important;
   height: 100% !important;
   width: 100% !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.magazine-link {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 5rem;
 }

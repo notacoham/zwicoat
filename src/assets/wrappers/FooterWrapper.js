@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
+    height: 30vh;
     align-items: center;
   }
   .footer-logo {

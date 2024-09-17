@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
+    height: 100vh;
     margin: 0 auto;
     padding: 2rem;
     gap: 0rem;
@@ -48,22 +48,22 @@ const Wrapper = styled.nav`
     .hydrogels-center {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      height: 500px;
+      justify-content: space-evenly;
+      height: 100vh;
       margin: 0 auto;
       padding: 2rem;
       gap: 0rem;
     }
 
     .hydrogels-img img {
-      width: 500px;
-      height: 400px;
+      width: 100%;
       border-radius: 30px;
       display: flex;
     }
 
     .hydrogels-img {
       display: flex;
+      padding: 4rem;
     }
 
     .hydrogels-content {

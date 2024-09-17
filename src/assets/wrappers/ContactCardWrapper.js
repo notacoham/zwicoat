@@ -8,7 +8,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 250px;
+    height: 70vh;
   }
 
   .contact-btn {
@@ -19,7 +19,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 400px;
+    height: 70vh;
   }
 `;
 

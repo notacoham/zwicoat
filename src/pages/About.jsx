@@ -1,24 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import TeamMember from '../components/TeamMember';
+import Wrapper from '../assets/wrappers/AboutPageWrapper';
+import 'react-multi-carousel/lib/styles.css';
+import Carousel from '../components/Carousel';
 
 const About = () => {
   return (
-    <>
+    <Wrapper>
       <div className="about-page-hero">
         <h1 className="about-page-title">About</h1>
-        <h2 className="about-page-header">The story. The Team.</h2>
+        <h2 className="about-page-header">Meet the team behind Zwicoat.</h2>
       </div>
       <div className="about-page-team">
         <p className="about-page-bio">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti
-          aut accusantium libero nostrum commodi nulla odio molestiae eius ab!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque rem
+          sequi, saepe error nostrum fugit eum modi mollitia laboriosam, qui
+          nesciunt laborum assumenda ipsum libero unde accusantium a. Quae
+          corrupti sequi eveniet cum repudiandae exercitationem mollitia placeat
+          odio maiores, est eaque non officia quibusdam ipsa porro libero. Ipsa,
+          cum error!
         </p>
-        <div className="team">
-          <TeamMember />
-        </div>
+        <Carousel />
       </div>
-    </>
+    </Wrapper>
   );
 };
 

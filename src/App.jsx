@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'react-multi-carousel/lib/styles.css';
 
-import { About, Contact, HomeLayout, Landing, Technology, Test } from './pages';
+import { About, Contact, HomeLayout, Landing, Technology } from './pages';
 
 const router = createBrowserRouter([
   {

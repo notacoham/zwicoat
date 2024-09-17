@@ -7,7 +7,6 @@ const Wrapper = styled.nav`
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    /* box-shadow: var(--shadow-elevation-high); */
   }
 
   .tech-content-center {
