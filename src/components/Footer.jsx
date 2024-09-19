@@ -5,7 +5,7 @@ import Wrapper from '../assets/wrappers/FooterWrapper';
 const Footer = () => {
   return (
     <Wrapper>
-      <footer className="footer-fade">
+      <footer>
         <div className="footer-center">
           <div className="footer-logo">
             <h1 className="footer-header">ZCMI</h1>

@@ -14,7 +14,12 @@ const Magazine = ({
 }) => {
   return (
     <div className="magazine-center">
-      <HTMLFlipBook showCover={true} width={350} height={500}>
+      <HTMLFlipBook
+        className="appear-up"
+        showCover={true}
+        width={350}
+        height={500}
+      >
         <div className="cover-page">
           <h1 className="magazine-title">{title}</h1>
           <img className="cover-img" src={coverImg} alt="Cover Image" />
