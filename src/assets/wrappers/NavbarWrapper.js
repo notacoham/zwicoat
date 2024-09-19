@@ -36,7 +36,6 @@ const Wrapper = styled.nav`
   .nav-link {
     color: var(--grey-darkest);
     padding: 0.5rem 0.5rem 0.5rem 0;
-    /* transition: var(--transition); */
     letter-spacing: 2px;
     background-image: linear-gradient(
       transparent 90%,
@@ -53,6 +52,8 @@ const Wrapper = styled.nav`
 
   .nav-link:hover {
     color: var(--primary-2);
+    scale: 1.125;
+    transition: var(--transition);
   }
 
   /* active */

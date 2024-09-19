@@ -37,7 +37,6 @@ const Technology = () => {
         </h1>
       </div>
       <div className="publications-container">
-        {/* <Publications items={items} /> */}
         <MagazineList items={items} />
       </div>
     </Wrapper>

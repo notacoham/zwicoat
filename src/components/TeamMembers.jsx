@@ -35,8 +35,8 @@ const TeamMembers = ({ members }) => {
       >
         {members.map((member) => {
           return (
-            <div className="slide">
-              <TeamMember key={member.id} {...member} />
+            <div className="slide" key={member.id}>
+              <TeamMember {...member} />
             </div>
           );
         })}

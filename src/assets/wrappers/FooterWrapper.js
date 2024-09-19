@@ -40,6 +40,7 @@ const Wrapper = styled.nav`
   .footer-link:hover {
     transition: var(--transition);
     color: var(--primary-3);
+    scale: 1.125;
   }
 
   .footer-info {

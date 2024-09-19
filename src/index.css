@@ -140,6 +140,7 @@ a {
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-elevation-high);
+  scale: 1.125;
 }
 
 .btn::before {
@@ -176,53 +177,7 @@ a {
   background: var(--green-light);
 }
 
-/* form */
-/* 
-.form {
-  width: 100%;
-  max-width: var(--fixed-width);
-  background: var(--white);
-  border-radius: var(--borderRadius);
-  box-shadow: var(--shadow-2);
-  padding: 2rem 2.5rem;
-  margin: 3rem auto;
-}
-.form-label {
-  display: block;
-  font-size: var(--small-text);
-  margin-bottom: 0.5rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-}
-.form-input,
-.form-textarea {
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
-  border: 1px solid var(--grey-200);
-}
-
-.form-row {
-  margin-bottom: 1rem;
-}
-
-.form-textarea {
-  height: 7rem;
-}
-::placeholder {
-  font-family: inherit;
-  color: var(--grey-400);
-}
-.form-alert {
-  color: var(--red-dark);
-  letter-spacing: var(--letterSpacing);
-  text-transform: capitalize;
-} */
-
 .hero-center {
-  /* background-image: url(./assets/images/logos/hero-img-3.jpeg); */
-  /* background: linear-gradient(to bottom right, #403f44, #1e1b32); */
   background-size: cover;
   width: 95vw;
   max-width: 100%;
@@ -255,7 +210,7 @@ a {
   background-size: cover;
   width: 100vw;
   max-width: 100%;
-  height: 70vh;
+  height: 80vh;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
@@ -410,11 +365,16 @@ svg {
   text-align: center;
 }
 
+.leadership-header {
+  margin-bottom: 3rem;
+}
+
 .about-page-bio {
   font-size: 24px;
-  width: 75%;
+  width: 70%;
   text-align: center;
   padding: 5rem;
+  line-height: 2rem;
 }
 
 .team {
@@ -441,22 +401,13 @@ svg {
 }
 
 .slide-img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 
   margin-bottom: 1rem;
   object-fit: cover;
-  /* border: 4px solid var(--primary-1); */
   box-shadow: var(--shadow-elevation-high);
-}
-
-.single-member {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
 }
 
 .slide-btn {
@@ -471,10 +422,66 @@ svg {
   color: grey;
 }
 
+/* team section */
+
+.team-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4.5rem;
+}
+
+.team-member {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 60vh;
+  position: relative;
+  gap: 2rem;
+  box-shadow: var(--shadow-elevation-medium);
+  position: relative;
+}
+
+.team-member:hover {
+  box-shadow: var(--shadow-elevation-high);
+  scale: 1.1;
+}
+
+.single-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
 .member-name {
   text-align: center;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .member-title {
   text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    width: 90vw;
+  }
+
+  .about-page-bio {
+    width: 100vw;
+    font-size: 20px;
+  }
+
+  .leadership-header {
+    font-size: 32px;
+  }
 }

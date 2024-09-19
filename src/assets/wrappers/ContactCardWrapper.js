@@ -11,15 +11,14 @@ const Wrapper = styled.nav`
     height: 70vh;
   }
 
-  .contact-btn {
-  }
-
   @media (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70vh;
+    .contact-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 70vh;
+    }
   }
 `;
 

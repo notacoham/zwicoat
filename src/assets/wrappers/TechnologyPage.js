@@ -51,6 +51,7 @@ const Wrapper = styled.nav`
       justify-content: center;
       align-items: center;
       gap: 1.5rem;
+      height: 75vh;
     }
 
     .tech-content-center {
@@ -58,7 +59,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 400px;
+      height: 50vh;
     }
 
     p {
@@ -70,9 +71,10 @@ const Wrapper = styled.nav`
     .tech-publications {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 5rem;
+      height: 50vh;
     }
 
     .publications-header {
