@@ -7,7 +7,6 @@ const MagazineList = ({ items }) => {
       {items.map((item) => {
         return (
           <div className="magazine-list" key={item.id}>
-            <h1 className="magazine-header">Publication {item.id}:</h1>
             <Magazine key={item.id} {...item} />
           </div>
         );

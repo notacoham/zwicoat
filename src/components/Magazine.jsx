@@ -14,7 +14,7 @@ const Magazine = ({
 }) => {
   return (
     <div className="magazine-center">
-      <HTMLFlipBook showCover={true} width={500} height={700}>
+      <HTMLFlipBook showCover={true} width={350} height={500}>
         <div className="cover-page">
           <h1 className="magazine-title">{title}</h1>
           <img className="cover-img" src={coverImg} alt="Cover Image" />
@@ -36,7 +36,7 @@ const Magazine = ({
           </svg>
           <p className="content-body">{summary}</p>
           <NavLink to={link} className="magazine-link btn">
-            Read the full paper
+            Read
           </NavLink>
         </div>
       </HTMLFlipBook>

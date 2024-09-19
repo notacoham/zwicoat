@@ -59,7 +59,7 @@ export const publications = [
       'Adreann Peel, Douglas Bennion, Ryan Horne, Marlan R. Hansen, C. Allan Guymon',
     journal: 'ACS Applied Bio Materials, 2024',
     summary:
-      'This study examines the durability of photografted zwitterionic hydrogel coatings on cochlear implants, highlighting their antifouling capabilities during insertion and long-term use. The research shows that these coatings significantly reduce frictional resistance and insertion force, leading to less trauma and scarring. The coatings maintain their enhanced lubricity and mechanical properties even after drying and rehydration, making them highly durable and effective in improving the performance and longevity of cochlear implants.',
+      'This study examines the durability of photografted zwitterionic hydrogel coatings on cochlear implants, and their antifouling capabilities during insertion and long-term use. The research shows that these coatings significantly reduce frictional resistance and insertion force, leading to less trauma and scarring. The coatings maintain their enhanced lubricity and mechanical properties even after drying and rehydration, making them highly durable and effective in improving the performance and longevity of cochlear implants.',
     link: 'https://pubs.acs.org/doi/full/10.1021/acsabm.4c00156',
   },
   {
