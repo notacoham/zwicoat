@@ -51,7 +51,10 @@ const Wrapper = styled.nav`
       justify-content: center;
       align-items: center;
       gap: 1.5rem;
-      height: 75vh;
+    }
+
+    .tech-content-body {
+      font-size: 20px;
     }
 
     .tech-content-center {
@@ -59,7 +62,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 50vh;
+      height: 70vh;
     }
 
     p {

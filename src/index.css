@@ -235,6 +235,20 @@ a {
   grid-template-columns: 3;
 }
 
+.turn-page-header {
+  margin-top: 2rem;
+  font-size: 24px;
+  text-align: center;
+  width: 80vw;
+}
+
+.turn-page-center {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Magazine */
 
 .publications-container {

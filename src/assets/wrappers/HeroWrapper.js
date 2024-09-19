@@ -21,10 +21,14 @@ const Wrapper = styled.nav`
     font-family: 'SUSE', sans-serif;
 
     /* gradient text */
-    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to right, #0165fc, #ff10f0);
     background-clip: text;
     color: transparent;
     text-align: center;
+  }
+
+  .btn {
+    font-size: 14px !important;
   }
 
   .hero-subheader {

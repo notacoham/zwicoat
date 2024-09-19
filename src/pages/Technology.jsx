@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Wrapper from '../assets/wrappers/TechnologyPage';
 import MagazineList from '../components/MagazineList.jsx';
 import { publications } from '../data.js';
+import { BsArrowRight } from 'react-icons/bs';
 const Technology = () => {
   const [items, setItems] = useState(publications);
 
@@ -35,6 +36,12 @@ const Technology = () => {
         <h1 className="publications-header">
           Read about them in our recent publications:
         </h1>
+      </div>
+      <div className="turn-page-center">
+        <h2 className="turn-page-header">
+          Just turn the page to find out more
+          <BsArrowRight />
+        </h2>
       </div>
       <div className="publications-container">
         <MagazineList items={items} />
