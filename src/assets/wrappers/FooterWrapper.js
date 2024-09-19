@@ -34,7 +34,7 @@ const Wrapper = styled.nav`
   .footer-link {
     color: var(--white);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .footer-link:hover {
@@ -52,7 +52,7 @@ const Wrapper = styled.nav`
   }
 
   .footer-contacts {
-    font-size: 18px;
+    font-size: 14px;
     color: var(--white);
   }
 

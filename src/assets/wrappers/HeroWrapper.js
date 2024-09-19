@@ -5,7 +5,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50vw;
+    width: 80vw;
     height: 100vh;
     gap: 1.5rem;
   }
@@ -15,9 +15,8 @@ const Wrapper = styled.nav`
   }
 
   .hero-header {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
-    /* color: var(--black); */
     font-family: 'SUSE', sans-serif;
 
     /* gradient text */
@@ -53,6 +52,7 @@ const Wrapper = styled.nav`
     .hero-header {
       font-size: 48px;
       font-weight: 600;
+
       color: var(--black);
       font-family: 'SUSE', sans-serif;
       background: linear-gradient(to right, #0165fc, #ff10f0);
