@@ -9,6 +9,12 @@ const Wrapper = styled.nav`
     gap: 1.5rem;
   }
 
+  .tech-header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .tech-content-center {
     display: flex;
     flex-direction: column;
@@ -35,13 +41,13 @@ const Wrapper = styled.nav`
   .publications-header {
     font-size: 36px;
     text-align: center;
-    width: 50vw;
+    width: 80vw;
   }
 
   .tech-content-header {
     font-size: 36px;
     text-align: center;
-    width: 50vw;
+    width: 80vw;
   }
 
   @media (min-width: 768px) {

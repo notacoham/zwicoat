@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import TeamMembers from '../components/TeamMembers';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { team } from '../data.js';
@@ -29,7 +28,6 @@ const About = () => {
         <h2 className="leadership-header">Leadership Team</h2>
       </div>
       <TeamList members={members} />
-      {/* <TeamMembers members={members} /> */}
     </>
   );
 };

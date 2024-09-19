@@ -11,6 +11,10 @@ const Wrapper = styled.nav`
     height: 70vh;
   }
 
+  .contact-card {
+    width: 80vw;
+  }
+
   @media (min-width: 768px) {
     .contact-center {
       display: flex;
