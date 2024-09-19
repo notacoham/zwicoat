@@ -72,8 +72,8 @@ const Wrapper = styled.nav`
       width: 600px;
       height: 400px;
       border-radius: 30px;
-      box-shadow: var(--shadow-elevation-high);
       display: flex;
+      box-shadow: var(--shadow-elevation-high);
     }
   }
 `;

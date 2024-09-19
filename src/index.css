@@ -40,7 +40,6 @@ html {
   --max-width: 1120px;
   --fixed-width: 600px;
   --view-width: 90vw;
-
   /* shadow */
 
   --shadow-color: 0deg 0% 67%;
@@ -81,6 +80,7 @@ body {
 
 p {
   margin: 0;
+  font-family: 'SUSE', sans-serif;
 }
 
 h1,
@@ -271,7 +271,7 @@ a {
 
 .magazine-title {
   font-size: 18px;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'SUSE', sans-serif;
   line-height: 1.5rem;
   align-content: center;
   text-align: center;
@@ -365,7 +365,7 @@ a {
   text-align: center !important;
   height: 100% !important;
   width: 100% !important;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'SUSE', sans-serif;
 }
 
 svg {
@@ -536,6 +536,12 @@ svg {
   animation-range: entry 0 cover 40%;
 }
 
+.footer-fade {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+
 @keyframes fade-up {
   from {
     opacity: 0;
@@ -559,9 +565,9 @@ svg {
 }
 
 .nav-fade {
-  animation: fade-down 0.5s;
+  animation: fade-down 1.5s;
 }
 
 .load-fade {
-  animation: fade-up 0.5s;
+  animation: fade-up 1.5s;
 }

@@ -28,7 +28,7 @@ const Contact = () => {
   };
   return (
     <Wrapper>
-      <div className="contact">
+      <div className="contact load-fade">
         <form onSubmit={onSubmit}>
           <h2>Contact Us</h2>
           <h3>We’re eager to discuss your ideas.​</h3>

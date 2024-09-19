@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.nav`
-  background-color: #0c2331;
-
   .footer-center {
+    background-color: #0c2331;
+    font-family: 'SUSE', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
