@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <div className="hero-center">
-        <div className="hero-content">
+        <div className="hero-content load-fade">
           <h1 className="hero-header" data-text="ZwiCoat Materials Innovations">
             ZwiCoat Materials Innovations
           </h1>
@@ -14,7 +14,7 @@ const Hero = () => {
             novel surface modifications of medical implants
           </h1>
         </div>
-        <img className="hero-img" src={heroImg} alt="" />
+        <img className="hero-img load-fade" src={heroImg} alt="" />
       </div>
     </Wrapper>
   );

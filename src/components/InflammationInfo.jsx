@@ -4,7 +4,7 @@ import Wrapper from '../assets/wrappers/InflammationInfoWrapper';
 const InflammationInfoCard = () => {
   return (
     <Wrapper>
-      <div className="inflammation-center">
+      <div className="inflammation-center fade-in">
         <h1 className="inflammation-header">
           Ultra-low Fouling Surfaces that prevent inflammation and infection
         </h1>

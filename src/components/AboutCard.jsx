@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom';
 const AboutCard = () => {
   return (
     <Wrapper>
-      <div className="about-center">
-        <h1 className="about-header">About us</h1>
-        <p className="about-body">
+      <div className="about-center fade-in">
+        <h1 className="about-header ">About us</h1>
+        <p className="about-body ">
           ZCMI originated from a collaboration between two University of Iowa
           scientists, who were focused on creating biocompatible surfaces for
           directing nerve growth. The breakthrough came when they discovered
@@ -22,7 +22,7 @@ const AboutCard = () => {
           the medical implant industry, moving away from accepting these
           complications as inevitable.​
         </p>
-        <div className="btn-container">
+        <div className="btn-container ">
           <NavLink to="/technology" className="btn">
             Technology
           </NavLink>

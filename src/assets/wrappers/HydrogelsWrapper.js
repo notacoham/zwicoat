@@ -36,6 +36,10 @@ const Wrapper = styled.nav`
     width: 80vw;
   }
 
+  .btn {
+    font-size: 14px;
+  }
+
   .hydrogels-body {
     line-height: 1.5rem;
     text-align: center;

@@ -27,10 +27,6 @@ const Wrapper = styled.nav`
     text-align: center;
   }
 
-  .btn {
-    font-size: 14px !important;
-  }
-
   .hero-subheader {
     font-size: 18px;
     font-weight: 400;

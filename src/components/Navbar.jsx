@@ -5,7 +5,7 @@ import Wrapper from '../assets/wrappers/NavbarWrapper';
 const Navbar = () => {
   return (
     <Wrapper>
-      <nav className="navbar">
+      <nav className="navbar nav-fade">
         <div className="nav-center">
           <span className="logo">ZCMI</span>
           <div className="nav-links">
