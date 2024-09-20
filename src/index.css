@@ -293,7 +293,7 @@ a {
 .inside-cover-page,
 .content-page,
 .back-cover-page {
-  box-shadow: var(--shadow-elevation-high);
+  box-shadow: var(--shadow-elevation-medium);
   border-radius: 10px;
 }
 

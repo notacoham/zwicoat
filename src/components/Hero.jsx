@@ -1,8 +1,8 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/HeroWrapper';
 // import heroImg from '../assets/images/logos/home-page-overlay-img-edited.png';
-import heroImg from '../assets/images/logos/home-page-img-test.png';
-// import heroImg from '../assets/images/logos/home-page-hero-img-paint.png';
+// import heroImg from '../assets/images/logos/home-page-img-test.png';
+import heroImg from '../assets/images/logos/home-page-hero-img-paint.png';
 
 const Hero = () => {
   return (
