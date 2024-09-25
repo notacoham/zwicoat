@@ -12,8 +12,8 @@ import coverImg4 from './assets/images/publications/publications-img-cover-4.png
 import coverImg5 from './assets/images/publications/publications-img-cover-5.png';
 import coverImg6 from './assets/images/publications/publications-img-cover-6.png';
 
-import teamImg1 from './assets/images/personel-photos/LelandHansen-edited.png';
-import teamImg2 from './assets/images/personel-photos/allanguymon.png';
+import teamImg1 from './assets/images/personel-photos/LelandHansen-compressed.jpg';
+import teamImg2 from './assets/images/personel-photos/allanguymon-compressed.jpg';
 import teamImg3 from './assets/images/personel-photos/hansenmr-edited.jpg';
 import teamImg4 from './assets/images/personel-photos/kameronHansen-edited.jpg';
 

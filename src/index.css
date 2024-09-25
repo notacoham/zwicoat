@@ -192,7 +192,7 @@ a {
 }
 
 .tech-hero-center {
-  background-image: url(./assets/images/logos/tech-page-hero-img.png);
+  background-image: url(./assets/images/logos/tech-page-hero-img-compressed.jpg);
   background-size: cover;
   width: 100vw;
   max-width: 100%;
@@ -206,7 +206,7 @@ a {
 }
 
 .about-page-hero {
-  background-image: url(./assets/images/logos/about-page-img.png);
+  background-image: url(./assets/images/logos/about-page-img-compressed.jpg);
   background-size: cover;
   width: 100vw;
   max-width: 100%;
