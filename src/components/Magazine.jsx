@@ -27,7 +27,7 @@ const Magazine = ({
           <h2 className="magazine-inside-title">{title}</h2>
           <p className="magazine-authors">Authors: {authors}</p>
           <p className="magazine-journal">Journal: {journal}</p>
-          <img src={img} alt="Inside Image" className="magazine-inside-img" />
+          <img src={img} alt={'Inside cover image taken from ' + journal} className="magazine-inside-img" />
         </div>
         <div className="content-page">
           <svg

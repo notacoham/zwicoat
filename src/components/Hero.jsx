@@ -16,7 +16,7 @@ const Hero = () => {
             novel surface modifications of medical implants
           </h1>
         </div>
-        <img className="hero-img load-fade" src={heroImg} alt="" />
+        <img className="hero-img load-fade" src={heroImg} alt="Cross section of a zwitterionically coated material." />
       </div>
     </Wrapper>
   );

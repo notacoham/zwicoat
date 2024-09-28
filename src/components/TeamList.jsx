@@ -20,7 +20,7 @@ const TeamList = ({ members }) => {
           {activeMember && (
           <div className='dialog-center'>
             <nav className='dialog-nav'>
-              <img src={activeMember.img} alt={activeMember.name} />
+              <img src={activeMember.img} alt={'Pictured here is ' + activeMember.name + '' + activeMember.title} />
               <div className="dialog-nav-headers">
                 <h1>{activeMember.name}</h1>
                 <h2>{activeMember.title}</h2>
