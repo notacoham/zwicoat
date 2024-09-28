@@ -383,6 +383,10 @@ svg {
   font-size: 16px;
 }
 
+.inside-cover-page:hover {
+  box-shadow: var(--shadow-elevation-high);
+}
+
 /* About page */
 
 .about-page-team {
@@ -461,6 +465,8 @@ svg {
 }
 
 .team-member {
+  background-color: white;
+  border: none;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -496,6 +502,22 @@ svg {
 .member-title {
   text-align: center;
   font-size: 20px;
+}
+
+/* Modal */
+
+.dialog-center {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.dialog {
+  position: relative;
+  width: 600px;
+  margin-left: -300px;
+  height: 400px;
+  margin-top: -200px;
 }
 
 @media (max-width: 768px) {

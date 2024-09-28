@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TeamMember = ({ name, title, img, bio }) => {
+const TeamMember = ({ name, title, img }) => {
   return (
     <div className="single-member appear-up">
       <img className="slide-img" src={img} alt={name} />
