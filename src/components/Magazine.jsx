@@ -1,6 +1,8 @@
 import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import { NavLink } from 'react-router-dom';
+import { BsArrowRight } from 'react-icons/bs';
+
 
 const Magazine = ({
   id,
@@ -21,6 +23,7 @@ const Magazine = ({
         height={500}
       >
         <div className="inside-cover-page">
+          <BsArrowRight style={{ alignSelf: 'end', margin: '5px 5px 0 0', fontSize: '25px'}} />
           <h2 className="magazine-inside-title">{title}</h2>
           <p className="magazine-authors">Authors: {authors}</p>
           <p className="magazine-journal">Journal: {journal}</p>
