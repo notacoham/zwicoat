@@ -20,10 +20,6 @@ const Magazine = ({
         width={350}
         height={500}
       >
-        {/* <div className="cover-page">
-          <h1 className="magazine-title">{title}</h1>
-          <img className="cover-img" src={coverImg} alt="Cover Image" />
-        </div> */}
         <div className="inside-cover-page">
           <h2 className="magazine-inside-title">{title}</h2>
           <p className="magazine-authors">Authors: {authors}</p>

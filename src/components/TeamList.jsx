@@ -1,5 +1,6 @@
 'use client';
 
+import { IoCloseSharp } from "react-icons/io5";
 import TeamMember from './TeamMember';
 import { useEffect, useRef, useState } from 'react';
 
@@ -14,11 +15,24 @@ const TeamList = ({ members }) => {
 
   return (
     <div className="team-center">
-      <div className="dialog-center">
+
         <dialog className="dialog" ref={dialogRef}>
-          {activeMember && <div>{activeMember.name}</div>}
+          {activeMember && (
+          <div className='dialog-center'>
+            <nav className='dialog-nav'>
+              <img src={activeMember.img} alt={activeMember.name} />
+              <div className="dialog-nav-headers">
+                <h1>{activeMember.name}</h1>
+                <h2>{activeMember.title}</h2>
+              </div>
+            </nav>
+            <p>{activeMember.bio}</p>
+            <button onClick={() => dialogRef.current?.close()}>
+              <IoCloseSharp style={{margin: '0 auto'}}/>
+            </button>
+          </div>
+          )}
         </dialog>
-      </div>
       {members.map((member) => {
         return (
           <>

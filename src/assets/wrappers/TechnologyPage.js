@@ -13,6 +13,11 @@ const Wrapper = styled.nav`
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+  }
+
+  .tech-title {
+    color: white;
   }
 
   .tech-content-center {
