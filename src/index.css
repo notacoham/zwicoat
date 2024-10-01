@@ -473,8 +473,8 @@ svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25%;
-  height: 60vh;
+  width: 23%;
+  height: 55vh;
   position: relative;
   gap: 2rem;
   box-shadow: var(--shadow-elevation-medium);
