@@ -5,7 +5,7 @@ import { About, Contact, HomeLayout, Landing, Technology } from './pages';
 
 const router = createBrowserRouter([
   {
-    path: '/#',
+    path: '/',
     element: <HomeLayout />,
     children: [
       {
