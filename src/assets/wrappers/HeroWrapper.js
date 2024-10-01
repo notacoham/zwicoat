@@ -73,7 +73,6 @@ const Wrapper = styled.nav`
       height: 400px;
       border-radius: 30px;
       display: flex;
-      box-shadow: var(--shadow-elevation-high);
     }
   }
 `;

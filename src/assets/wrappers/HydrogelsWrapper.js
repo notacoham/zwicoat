@@ -18,7 +18,7 @@ const Wrapper = styled.nav`
   }
 
   img {
-    box-shadow: var(--shadow-elevation-high);
+      box-shadow: 40px 40px var(--primary-1);
   }
 
   .hydrogels-content {
