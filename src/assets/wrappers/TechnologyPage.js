@@ -26,13 +26,15 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: auto;
   }
 
   p {
     line-height: 1.5rem;
     text-align: center;
     width: 80vw;
+    padding: 5rem 1rem;
+    text-align: justify;
   }
 
   .tech-publications {
@@ -68,6 +70,7 @@ const Wrapper = styled.nav`
     .tech-content-body {
       font-size: 20px;
       text-align: justify;
+      height: auto;
     }
 
     .tech-content-center {
