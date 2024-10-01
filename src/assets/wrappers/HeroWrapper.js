@@ -46,7 +46,6 @@ const Wrapper = styled.nav`
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 1.5rem;
     }
 
     .hero-header {
@@ -68,11 +67,12 @@ const Wrapper = styled.nav`
       color: var(--black);
     }
 
-    img {
+    .hero-img {
       width: 600px;
       height: 400px;
       border-radius: 30px;
       display: flex;
+      position: relative;
     }
   }
 `;

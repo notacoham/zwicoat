@@ -1,5 +1,8 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/ContactPageWrapper';
+import { toast } from 'react-toastify';
+
+
 
 const Contact = () => {
   const [result, setResult] = React.useState('');
@@ -20,6 +23,7 @@ const Contact = () => {
 
     if (data.success) {
       setResult('Form Submitted Successfully');
+      toast.success('Form Submitted Successfully');
       event.target.reset();
     } else {
       console.log('Error', data);

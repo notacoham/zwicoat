@@ -189,10 +189,36 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-img {
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    margin-right: 2rem;
+}
+
+.img-center {
+    position: relative;
+}
+
+.shadow {
+  background-color: var(--primary-1);
+  z-index: -1;
+  width: 580px;
+  height: 380px;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  transform: rotate(90deg);
+  border-radius: 30px;
 }
 
 .tech-hero-center {
-  background-image: url(./assets/images/logos/tech-page-hero-img-compressed.jpg);
+  background-image: url(./assets/images/logos/new-tech-hero-img.png);
   background-size: cover;
   width: 100vw;
   max-width: 100%;
@@ -415,11 +441,12 @@ svg {
 }
 
 .about-page-bio {
-  font-size: 24px;
-  width: 70%;
+  font-size: 20px;
+  width: 90vw;
   text-align: center;
   padding: 5rem;
   line-height: 2rem;
+  text-align: justify;
 }
 
 .team {
@@ -480,6 +507,7 @@ svg {
   box-shadow: var(--shadow-elevation-medium);
   position: relative;
   transition: 0.2s ease-in-out;
+  overflow: hidden;
 }
 
 .team-member:hover {
@@ -570,6 +598,7 @@ dialog {
   .dialog-center p {
     line-height: 1rem;
   }
+  
 }
 
 .dialog-center p {
@@ -597,6 +626,10 @@ dialog {
 @media (max-width: 768px) {
   .team-member {
     width: 70vw;
+  }
+
+  .single-member {
+        gap: .5rem;
   }
 
   .about-page-bio {
@@ -652,12 +685,23 @@ dialog {
 
 @keyframes fade-up {
   from {
-    opacity: 0;
+    opacity: 0.25;
     transform: translateY(30px) scale(0.8);
   }
   to {
     opacity: 1;
     transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-up-shadow {
+  from {
+    opacity: 0;
+    transform: rotate(90deg) translateY(30px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(90deg) translateY(0px) scale(1);
   }
 }
 
@@ -678,4 +722,8 @@ dialog {
 
 .load-fade {
   animation: fade-up 1.5s;
+}
+
+.load-fade-shadow {
+  animation: fade-up-shadow 1.5s;
 }

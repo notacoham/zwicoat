@@ -26,7 +26,7 @@ const TeamList = ({ members }) => {
                 <h2>{activeMember.title}</h2>
               </div>
             </nav>
-            <p>{activeMember.bio}</p>
+            <p style={{fontSize: '16px', textAlign: 'justify'}}>{activeMember.bio}</p>
             <button onClick={() => {
               setActiveMember(null)
               dialogRef.current?.close()

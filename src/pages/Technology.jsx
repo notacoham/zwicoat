@@ -30,10 +30,8 @@ const Technology = () => {
         </p>
       </div>
       <div className="tech-publications">
-        <h1 className="tech-content-header">
-          Compelling in vivo and in vitro results
-        </h1>
-        <h1 className="publications-header">
+        <h1 style={{textTransform: 'none', lineHeight:'3rem'}} className="tech-content-header">
+          Compelling {<i>in vivo</i>} and {<i>in vitro</i>} results.{<br></br>}
           Read about them in our recent publications:
         </h1>
       </div>

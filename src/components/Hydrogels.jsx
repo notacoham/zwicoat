@@ -7,7 +7,7 @@ const Hydrogels = () => {
     <Wrapper>
       <div className="hydrogels-center fade-in">
         <div className="hydrogels-img ">
-          <img src={img} alt="vector-lines" />
+          <img src={img} alt="fluorescent microscope image of a zwitterion-coated cochlear implant after 1 year of implantation in mouse " />
         </div>
         <div className="hydrogels-content">
           <h1 className="hydrogels-header">
@@ -18,7 +18,7 @@ const Hydrogels = () => {
             barrier between the body and the implant. Instead of seeing a
             silicone surface, cells and proteins instead just see water.
           </p>
-          <NavLink to="/technology" className="btn ">
+          <NavLink to="/technology" className="btn">
             Learn More
           </NavLink>
         </div>

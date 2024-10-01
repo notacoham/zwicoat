@@ -67,6 +67,7 @@ const Wrapper = styled.nav`
 
     .tech-content-body {
       font-size: 20px;
+      text-align: justify;
     }
 
     .tech-content-center {
@@ -101,7 +102,11 @@ const Wrapper = styled.nav`
     .tech-content-header {
       font-size: 36px;
       text-align: center;
-      width: 50vw;
+      width: 60vw;
+    }
+
+    .turn-page-header {
+    justify-self:center
     }
   }
 `;

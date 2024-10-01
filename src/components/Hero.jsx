@@ -1,8 +1,6 @@
 import React from 'react';
 import Wrapper from '../assets/wrappers/HeroWrapper';
-// import heroImg from '../assets/images/logos/home-page-overlay-img-edited.png';
 import heroImg from '../assets/images/logos/home-page-img-cropped.png';
-// import heroImg from '../assets/images/logos/home-page-hero-img-paint.png';
 
 const Hero = () => {
   return (
@@ -16,7 +14,10 @@ const Hero = () => {
             novel surface modifications of medical implants
           </h1>
         </div>
-        <img className="hero-img load-fade" src={heroImg} alt="Cross section of a zwitterionically coated material." />
+        <div className="img-center">
+        <img className="hero-img load-fade" src={heroImg} alt="crossectional elemental map of a zwitterion-coated cochlear implant" />
+        <div className="shadow load-fade-shadow"></div>
+        </div>
       </div>
     </Wrapper>
   );
