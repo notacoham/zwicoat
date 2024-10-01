@@ -1,5 +1,5 @@
 import Wrapper from '../assets/wrappers/HydrogelsWrapper';
-import img from '../assets/images/logos/slide12-home.png';
+import img from '../assets/images/logos/slide12-home-edited.png';
 import { NavLink } from 'react-router-dom';
 
 const Hydrogels = () => {

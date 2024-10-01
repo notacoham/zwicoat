@@ -8,9 +8,9 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     gap: 1.5rem;
   }
 
@@ -27,7 +27,7 @@ const Wrapper = styled.nav`
 
   .about-body {
     color: var(--grey-light);
-    line-height: 1rem;
+    line-height: 1.5rem;
     text-align: center;
     width: 100%;
   }
@@ -46,7 +46,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 70vh;
       margin: 0 auto;
       padding: 2rem;
       gap: 2rem;

@@ -9,7 +9,6 @@ const Wrapper = styled.nav`
     justify-content: space-around;
     height: 30vh;
     align-items: center;
-    margin-top: 5rem;
   }
   .footer-logo {
     display: flex;
@@ -63,7 +62,6 @@ const Wrapper = styled.nav`
       justify-content: space-around;
       height: 30vh;
       align-items: center;
-      margin-top: 5rem;
     }
     .footer-logo {
       display: flex;

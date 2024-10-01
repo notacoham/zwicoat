@@ -7,7 +7,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     margin: 0 auto;
     padding: 2rem;
     gap: 0rem;
@@ -61,13 +61,17 @@ const Wrapper = styled.nav`
 
     .hydrogels-img img {
       width: 100%;
+      height: auto;
       border-radius: 30px;
       display: flex;
     }
 
     .hydrogels-img {
+      max-width: 700px;
+      max-height: 500px;
       display: flex;
-      padding: 4rem;
+      padding: 2rem;
+      align-self: center;
     }
 
     .hydrogels-content {

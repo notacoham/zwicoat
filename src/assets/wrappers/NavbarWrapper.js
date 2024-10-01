@@ -48,12 +48,12 @@ const Wrapper = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease-in-out;
   }
 
   .nav-link:hover {
     color: var(--primary-2);
     scale: 1.125;
-    transition: var(--transition);
   }
 
   /* active */

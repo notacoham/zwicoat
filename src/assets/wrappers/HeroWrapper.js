@@ -6,7 +6,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     width: 80vw;
-    height: 100vh;
+    height: 50vh;
     gap: 1.5rem;
   }
 

@@ -7,6 +7,7 @@ const Wrapper = styled.nav`
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    max-height: 500px;
   }
 
   .tech-header {
@@ -25,7 +26,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
   }
 
   p {
@@ -40,7 +41,7 @@ const Wrapper = styled.nav`
     justify-content: space-evenly;
     align-items: center;
     gap: 2rem;
-    height: 100vh;
+    height: 70vh;
   }
 
   .publications-header {
@@ -73,7 +74,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 70vh;
+      height: 50vh;
     }
 
     p {

@@ -27,7 +27,10 @@ const TeamList = ({ members }) => {
               </div>
             </nav>
             <p>{activeMember.bio}</p>
-            <button onClick={() => dialogRef.current?.close()}>
+            <button onClick={() => {
+              setActiveMember(null)
+              dialogRef.current?.close()
+            }}>
               <IoCloseSharp style={{margin: '0 auto'}}/>
             </button>
           </div>

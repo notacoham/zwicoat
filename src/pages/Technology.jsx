@@ -39,7 +39,7 @@ const Technology = () => {
       </div>
       <div className="turn-page-center">
         <h2 className="turn-page-header">
-          Just turn the page to find out more
+          Turn the page to find out more
           <BsArrowRight />
         </h2>
       </div>

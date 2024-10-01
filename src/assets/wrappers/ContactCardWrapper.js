@@ -8,7 +8,7 @@ const Wrapper = styled.nav`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 70vh;
+    height: 40vh;
   }
 
   .contact-card {
@@ -21,7 +21,7 @@ const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      height: 70vh;
+      height: 60vh;
     }
   }
 `;
