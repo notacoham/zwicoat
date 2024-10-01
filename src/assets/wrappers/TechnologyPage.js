@@ -29,12 +29,16 @@ const Wrapper = styled.nav`
     height: auto;
   }
 
+  .tech-content-body {
+    padding: 5rem 1rem;
+    text-align: justify;
+  }
+
   p {
     line-height: 1.5rem;
     text-align: center;
     width: 80vw;
-    padding: 5rem 1rem;
-    text-align: justify;
+    
   }
 
   .tech-publications {

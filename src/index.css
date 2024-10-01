@@ -453,6 +453,14 @@ svg {
   min-height: 400px;
 }
 
+@media (max-width: 768px) {
+  .about-page-bio {
+    padding: 5rem 2rem;
+    text-align: justify;
+    height: auto;
+  }
+}
+
 .team {
   height: 100vh;
 }
