@@ -676,7 +676,7 @@ dialog {
     scale: 1;
   }
 }
-
+/* 
 .appear-up {
   animation: appear-up linear;
   animation-timeline: view();
@@ -693,7 +693,7 @@ dialog {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0;
-}
+} */
 
 @keyframes fade-up {
   from {
@@ -728,9 +728,9 @@ dialog {
   }
 }
 
-.nav-fade {
+/* .nav-fade {
   animation: fade-down 1.5s;
-}
+} */
 
 .load-fade {
   animation: fade-up 1.5s;
