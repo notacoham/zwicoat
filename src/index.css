@@ -737,5 +737,5 @@ dialog {
 }
 
 .load-fade-shadow {
-  animation: fade-up-shadow 1.5s;
+  animation: fade-up-shadow 3s;
 }
