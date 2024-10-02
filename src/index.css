@@ -217,6 +217,12 @@ a {
   border-radius: 30px;
 }
 
+@media (max-width: 768px) {
+  .shadow {
+    display: none;
+  }
+}
+
 .tech-hero-center {
   background-image: url(./assets/images/logos/new-tech-hero-img.png);
   background-size: cover;
