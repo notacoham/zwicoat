@@ -8,6 +8,8 @@ const Wrapper = styled.nav`
     width: 80vw;
     height: 50vh;
     gap: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img {
@@ -37,7 +39,8 @@ const Wrapper = styled.nav`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    margin-left: auto;
+    margin-right; auto;
   }
 
   /* active */
